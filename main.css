@@ -1,0 +1,96 @@
+body {
+    font-family: 'Netflix sans';
+    text-align: center;
+    background-color: #fff;
+}
+.icon{
+    font-size: 100px;
+    margin: 0;
+    color: #fff;
+}
+.icons{
+    font-size: 30px;
+    margin: 0;
+    color: rgb(90, 181, 218);
+}
+#weather-container {
+    padding: 20px;
+    background-color: rgb(20, 119, 158);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 300px;
+    margin: 0 auto;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.in{
+    margin-top: 30px;
+}
+.des{
+    margin-top: 50px;
+
+}
+.des p{
+    font-size: 20px;
+}
+.temps{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 7px;
+    border-radius: 4px;
+}
+.temp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 7px;
+    border-radius: 4px;
+}
+.temp p{
+    color: rgb(90, 181, 218);
+    font-weight: 600;
+}
+.temps p{
+    color: rgb(90, 181, 218);
+    font-weight: 600;
+}
+h3{
+    color: #fff;
+}
+input{
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 12px;
+}
+
+input[type="text"],
+button {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+h2{
+    font-size: 30px;
+    color: #fff;
+    margin: 0;
+}
+p {
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 5px;
+}
